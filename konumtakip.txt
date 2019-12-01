@@ -11,3 +11,44 @@ https://www.robolinkmarket.com/lityum-pil-sarj-devresi-5v-usb-boost-modul.html
 teklink
 https://www.robolinkmarket.com/udemy-ozel-set-kapadokya-gsm-shield-seti.html
 https://github.com/meseven/arduino-nodejs-egitimi
+
+---Bir web sockete bağlanmak---
+kurulum # npm i -g wscat
+bağlanmak # wscode -c ws://localhost:3000
+
+nodejs sununun sürekli çalışır olması için pm2 kullanacağız.
+npm i -g pm2
+pm2 start server.js  ile çalışıtırabiliriz.
+pm2 logs  komutu ile loglara bakarız.
+pm2 stop ile server durdurabiliriz.
+pm2 startup ve pm2 save  bu iki komut bilgisayar kapatılıp açılınca serverın çalışmasını sağlar.
+
+https://www.adafruit.com/
+https://github.com/meseven/arduino-nodejs-egitimi/tree/master/examples/arduino-examples/mqtt_arduino_led
+
+https://github.com/meseven/arduino-nodejs-egitimi/blob/master/location-tracking/arduino/libraries/TinyGPS-master.zip
+
+Redis -- in memory, database, cache, message broker. isviçre çakısı gibi.
+# apt-get install redis-server  //kurulum
+# redis-cli ping  //test
+redise yazdığımız verileri görmek için https://tableplus.com
+tableplus aynı zamanda postgressql içinde kullanılır.
+
+https://github.com/meseven/arduino-nodejs-egitimi/tree/c98aed72a4516073b9ae895f0e4d0ba2e677d1ef/location-tracking
+https://github.com/mcollina/mosca/wiki
+
+# npm i redis mosca --save
+# killall node // tüm node proseslerini öldürür.
+# redis-cli monitor  
+https://github.com/meseven/arduino-nodejs-egitimi/tree/14b6422638a44800a32f237a1473fd8a45d5c6d2/location-tracking
+# wscat -c ws://localhost:3000 // bağlantı testi....
+
+https://github.com/meseven/arduino-nodejs-egitimi/tree/master/examples/arduino-examples/mqtt_arduino_gps
+https://github.com/meseven/arduino-nodejs-egitimi/tree/master/location-tracking/arduino/mqtt_arduino_gps_retain
+https://github.com/meseven/arduino-nodejs-egitimi/tree/0ed34e66ed47e0d740f5adbc9be6a514bd803371/location-tracking/simple-web-client
+https://github.com/meseven/arduino-nodejs-egitimi/tree/fdcef6c4392208e491ccb8f54b9901f551a97bf7/location-tracking/simple-web-client
+https://github.com/meseven/arduino-nodejs-egitimi/tree/d662e646a1f7095e60b9649b1875b0e59e7d2a60/location-tracking/simple-web-client
+https://github.com/meseven/arduino-nodejs-egitimi/tree/64a31a201e3ac7320f325165aa6ab9a78943caaa/location-tracking/simple-web-client
+https://github.com/meseven/arduino-nodejs-egitimi/tree/371fb6a407d6b66f5b46d31e8e4fd328520ba8c3/location-tracking/simple-web-client
+https://github.com/meseven/arduino-nodejs-egitimi/tree/master/location-tracking/simple-web-client
+
