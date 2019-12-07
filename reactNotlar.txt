@@ -1,0 +1,59 @@
+--kurulum--
+nodejs kur.
+React Developer Tool chrome eklentisi
+Redux Developer Tool chrome eklentisi
+vs.code eklenti olarak Live Server, ES7 React/Redux/GraphQL/ReactNative kur.
+
+https://github.com/facebook/create-react-app
+
+jsx = javascript içinde html kullanmamızı sağlar.genelde bir tane parent elemen döner örneğin div. herşeyi bu div içinde yapacağız.
+redux = state yönetimi için kullanılır.
+
+npm i -g create-react-app
+--yeni proje oluşturmak.--
+create-react-app .
+--projeyi çalıştırmak--
+npm start
+--google maps--
+npm install --save google-maps-react
+--yeni js oluşturmak--
+harita ekleyeceğim...
+src içine yeni js dosyası oluştur. App.js e import et.örneğin adı MapContainer.js olsun.
+en üste react import etmeyi unutma
+import React from 'react';
+import MapContainer from './MapsContainer';
+app.js deki default gelen head taglarını yok et ve MapContainer tagını buraya ekle. <MapContainer/>
+
+https://github.com/fullstackreact/google-maps-react
+
+Eğer es7 react eklentisi kuruluysa yeni açtığız componentein içinde rcc yazıp tab tuşuna basarsak
+yapıyı bize oluşturur.
+
+--style, css, bootstrap kullanımı--
+<h4 style={{color:"blue"}}>merhaba</h4>
+bootstrap için index.html'e cdn linkleri eklenir. Ama npm i bootstrap yapmak daha iyi.
+
+--fonksiyonel component--
+state konusunda daha iyi anlaşılacak. komponentimiz sabit olacaksa yada bir durum almayacaksa kullanılabilir.
+rfc yazıp tab yaparsak otomatik format oluşur.projede navbar.js'e bak
+
+
+
+
+
+--react native kurulum--ios,android için--
+https://facebook.github.io/react-native/
+npm install -g react-native-cli
+--yeni proje oluşturmak--
+react-native init projeadi
+--ios için--
+react-native run-ios
+bu arada derleme işlemleri yapılıyor,apple kullanıyorsan similator açılmalı.
+derleme işlemi biraz uzun sürer
+npm start
+android studio kurmak gerekli.
+--android çalıştırmak--
+react-native run-android
+
+--------------------------
+
