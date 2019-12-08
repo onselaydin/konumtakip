@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function navbar() {
+export default function navbar(props) {
     return (
         <div>
-            <h3>Kullanıcı app</h3>
+            <h3>{props.title}</h3>
         </div>
     )
 }

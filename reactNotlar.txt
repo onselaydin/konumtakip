@@ -37,6 +37,11 @@ bootstrap için index.html'e cdn linkleri eklenir. Ama npm i bootstrap yapmak da
 state konusunda daha iyi anlaşılacak. komponentimiz sabit olacaksa yada bir durum almayacaksa kullanılabilir.
 rfc yazıp tab yaparsak otomatik format oluşur.projede navbar.js'e bak
 
+--props--
+propslar bir komponentden diğerine veri aktarmak için kullanılır.
+impt yazıp taba basarsak import proptype otomatik eklenir.
+maptest uygulamasında örnekler var.
+
 
 
 
