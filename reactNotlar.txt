@@ -61,6 +61,20 @@ onClickEvent(e){
 kendi yazdığımız metodlarda this undefined'dır.
 <p onClick={this.onClickEvent.bind(this)}>Event testleri</p>
 Burda bind(this) bizim metoda this'i erişebilir yapacak.
+Ayrıca bind ile fonksiyonumuza değerde gönderebiliriz.
+bind(this,34) alırkende 
+onClickEvent = (number,e) => { console.log(number) }
+
+--State yönetimi--
+Orta ölçekli uygulamalar için contextapi. Büyük uygulamalar için redux
+context.js oluştur. içinde provider(sağlayan) ve consumer(tüketici) yapısı kullacağız.
+https://dev.to/washingtonsteven/reacts-new-context-api-and-actions-446o
+https://reactjs.org/docs/context.html
+
+
+
+
+
 
 --react native kurulum--ios,android için--
 https://facebook.github.io/react-native/
