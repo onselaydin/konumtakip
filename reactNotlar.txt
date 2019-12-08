@@ -42,9 +42,25 @@ propslar bir komponentden diğerine veri aktarmak için kullanılır.
 impt yazıp taba basarsak import proptype otomatik eklenir.
 maptest uygulamasında örnekler var.
 
+--state--
+Bir komponentin o anki durumunu gösteren, değişik propertylerden oluşan bir js objesidir.
+örneğin: componente tıklanmışmı, görünürmü
+sadece statei değişen component yenileniyor. setstate ile stateler değiştirilir.
+Bir state başka bir komponente props ile gönderebiliriz.
+2 yol var. birincisi constractor içinde tanımlamak diğeri class'ın en tepesinde tanımlama.
+rcons yazıp tab tuşu ile otomatik oluşur.
+Erişmek için
+{this.state.test}
 
+--events--
+örneğin onClick. Eventi yapalamak için e kullanacağız.
+onClickEvent(e){
 
-
+    }
+<p onClick={this.onClickEvent}>Event testleri</p>
+kendi yazdığımız metodlarda this undefined'dır.
+<p onClick={this.onClickEvent.bind(this)}>Event testleri</p>
+Burda bind(this) bizim metoda this'i erişebilir yapacak.
 
 --react native kurulum--ios,android için--
 https://facebook.github.io/react-native/
