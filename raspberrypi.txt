@@ -4,3 +4,27 @@ https://rufus.ie/
 https://sourceforge.net/projects/win32diskimager/
 http://jdownloader.org/download/index
 https://blog.samm.com/harici-depolama-yapilandirmasi/
+
+https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-resistor-color-code-4-band
+
+ssh pi@192.168.1.41 
+şifre 1234
+
+--Led yakmak--
+import RPi.GPIO as GPIO
+import time
+# blinking function
+def blink(pin):
+    GPIO.output(pin,GPIO.HIGH)
+    time.sleep(1)
+    GPIO.output(pin,GPIO.LOW)
+    time.sleep(1)
+return
+# to use Raspberry Pi board pin numbers
+GPIO.setmode(GPIO.BOARD)
+# set up GPIO output channel
+GPIO.setup(8, GPIO.OUT)
+# blink GPIO14 50 times
+for i in range(0,50):
+    blink(11)
+GPIO.cleanup()
