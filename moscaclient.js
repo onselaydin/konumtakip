@@ -1,5 +1,5 @@
 var mqtt = require('mqtt');
-var client = mqtt.connect('mqtt://127.0.0.1:1883');
+var client = mqtt.connect('mqtt://157.230.105.22:1883');
 
 client.subscribe('new-user');
 
