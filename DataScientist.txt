@@ -1,0 +1,75 @@
+Bir veri bilimcinin bilmesi gerekenler: Programlama dilleri(R,python,scala),
+        sql,istatistik,Kişisel girişkenlik yetenekler,veri madenciliği
+
+---------------------------Veri Bilimi Uygulamaları----------------------
+--Müşteri Sekmentasyonu--
+Daha fazla gelir için müşteri ile ilgilenmek. Binlerce müşteri içinde bu tip müşterileri bulmak.
+Genelde gelir bazlı segmente etmek. 
+örneğin. Bu güne kadar bırakılan gelir miktarı,tahmini bundan sonra bırakacağı gelir miktarı,
+        ayda oralama alış miktarı,
+--Tasviye Sistemleri--
+Bir ürüne bakan şunada baktı, onu alan bunuda aldı.
+
+--Fiyatlama Çalışmaları--
+Tüik verilerinden, kendi fiyatlarımıza bakılır, arz talebe göre, mevsimselliğe göre
+
+--Zaman Serisi Problemleri--
+Zamansal olarak gelir tahmini,ürün talep tahmini gibi çalışmalar bu kapsama girer.
+
+--Müşteri/Çalışan Terk Modelleme--
+Olası terk etmeleri tahmin etmek için yapılan modellerdir.
+
+--Keşif Analizi--
+Bir iş problemi odağında verinin gizemine kapılıp yapılan çalışmadır.
+
+--Örüntü Tanıma--
+örneğin bir elektrik santralinde yapılan kesintilerin en çok nezaman olduğunu
+gösteren analizler grafikler...
+
+--Finansal Veri analizi--
+Algoritmik trading gibi güzel uygulamalar var. Borsada al sat...
+
+--Spor Analitiği--
+sporcuların görüntü işmele ile takip edilip istatistik çıkarmak.
+
+--Reklam Alanındaki uygulamalar--
+Reklam vereceğim kaç lira ödemeliyim, 
+
+--Trend Analizi--
+örneğin adidassıznı : hangi ürünün hangi dönemde nerede gittiği tahmini.
+Hangi zamanda hangi ürünleri hangi ilçeye göndermeliyim..
+Depomu ne zaman yada hangi dönem hangi ürünle doldurmalıyım
+
+--Davranış Analizleri--
+  İnsanların network,web gezintileriden analiz edilmesi örneği verilebilir.
+
+--Network Analizleri--
+
+--Depo Tedarik Ziniciri Çalışmaları--
+
+--Görüntü İşleme Problemleri--
+  Bir mağzadaki kalabalığın analizi, hangi reyonda daha fazla zaman geçirildi.
+
+--Metin tabanlı uygulamalar--
+Kişisel asistanlar, chatbotlar,belge sınıflandırma,
+çocukların kopya çekme durumlarını tespit etmek için metin madenciliği kullanılır.
+
+--Siber Güvenlik--
+network loglarının analizi. 
+
+--Sahtekarlık Tespiti--
+
+https://www.qlik.com/us
+
+
+R = istatistikçiler tarafından geliştirilmiştir, 4 büyük kütüphanesi var. istatistikçi verinin dilinden anlayan en iyi güruhdur. :)
+     açık kaynaklı, istatistiksel hesaplama ve grafikler konusunda özelleştirilmiş bir programlama dili   
+     https://cran.r-project.org/
+     https://rstudio.com/
+
+Python = pandas,statsModels, seaborn, xarray, scikit,scikit-image,numpy,scipy, mathplotlib,jupyter,iP(ipython) kütüphaneleri kullanılabilir.
+
+Scala = Javaya yakık bir programlama dilidir.
+
+
+

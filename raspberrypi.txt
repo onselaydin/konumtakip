@@ -4,3 +4,4 @@ https://rufus.ie/
 https://sourceforge.net/projects/win32diskimager/
 http://jdownloader.org/download/index
 https://blog.samm.com/harici-depolama-yapilandirmasi/
+https://maker.robotistan.com/raspberry-pi-ile-fm-verici-yapalim/
