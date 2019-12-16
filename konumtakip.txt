@@ -52,3 +52,38 @@ https://github.com/meseven/arduino-nodejs-egitimi/tree/64a31a201e3ac7320f325165a
 https://github.com/meseven/arduino-nodejs-egitimi/tree/371fb6a407d6b66f5b46d31e8e4fd328520ba8c3/location-tracking/simple-web-client
 https://github.com/meseven/arduino-nodejs-egitimi/tree/master/location-tracking/simple-web-client
 
+--MQTT Server Kurmak--
+Bir klasör oluştur. mkdir mqtt-server
+cd mqtt-server
+mqtt-server# npm init -y
+https://github.com/mcollina/mosca
+mqtt-server# npm install mosca --save
+
+
+Client için npm install mqtt --save
+
+topic subscripe(üyelik) ve publish
+
+webden bağlanmak için mqttjs kullanılır.
+https://github.com/mqttjs/MQTT.js
+
+wscat ile bir websocket'e bağlanabilirsin.
+kurmak için # sudo npm i -g wscat
+kullanımı # wscat -c ws://157.230.105.22:8888
+
+--PM2 node server sürekli çalışması için kullanılır--
+# npm i -g pm2
+çalıştırmak için # pm2 start server.js
+durdurmak # pm2 stop server
+yeniden başlatmak # pm2 restart server
+# pm2 logs
+# pm2 startup ve # pm2 save  // bu komut ile server restart olsa bile pm2 çalışır.
+
+https://www.tinkercad.com/   ücretsiz modelleme programı.
+https://www.thingiverse.com/ hazır 3d modeller...
+thingiverse dan indirdiğim stl dosyasını tinkercad'e ekleyebiliyoruz.
+
+--3D printing software--
+https://ultimaker.com/software/ultimaker-cura
+flemen için pla öneriliyor.
+
