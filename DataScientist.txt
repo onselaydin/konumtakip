@@ -71,5 +71,17 @@ Python = pandas,statsModels, seaborn, xarray, scikit,scikit-image,numpy,scipy, m
 
 Scala = Javaya yakık bir programlama dilidir.
 
+--Veri bilimi programları--
+IBM SPSS
+SAS
+Rapidminer
+Knime
 
+--Yol Haritası--
+Etkinlik,Bloglar ve Veri Bilimcileri Takip et
+Bir programlama dili seç
+istatistiksel Öğrenmeyi hallet
+makine öğrenmesini hallet
+Büyük veri yetenekleri edin.
+Bol Bol proje yap
 
