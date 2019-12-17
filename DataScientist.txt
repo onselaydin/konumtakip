@@ -85,3 +85,43 @@ makine öğrenmesini hallet
 Büyük veri yetenekleri edin.
 Bol Bol proje yap
 
+-----------------İSTATİSTİK VE PYTHON-----------------
+başlattan anaconda navigator bul çalıştır.
+http://localhost:8888/notebooks/Documents/glossary
+Spyder editörü kullanacak.
+--------Kaggle.com-veri bilimcilerin evi--------
+compatition - Tartışmalar, yarışmalar, ödüllerin olduğu bölüm
+datasets-- birçok dataların olduğu bölüm.
+kernel-- kodların olduğu bölüm..
+discussion -- insanların tartışıp, sorular sorduğu bölüm.
+
+Data: Bir ışığın şiddetini sensöz ile 24 saat aldık kaydettik bu bir veridir.
+      yada hisse senedi değerlerini aldık. 
+      Bir veriyi anlamak için görselleştirmek gerekiyor..
+veri iki tipte olabilir Continuonus(örnek: hisse senedi 1100 ve 1111 TL olabilir.)
+ ve Categorical(Uçan hayvanlar: kartal,akbaba vs.)
+
+Level Measurments(ölçme ölçeği): 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
