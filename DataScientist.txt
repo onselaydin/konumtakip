@@ -103,10 +103,23 @@ veri iki tipte olabilir Continuonus(örnek: hisse senedi 1100 ve 1111 TL olabili
 
 Level Measurments(ölçme ölçeği): 
 
+Population ve Sample = Burada population Bir ülkeye benzetebiliriz, sample da o ülkenin bir bölgesi.
 
+Maaşlara zam yaparken ortalamaya göremi, ortadaki maaşa göremi zam yaparsın.
+ör: patron 5TL altındakilere zam yapıcam dedi. 1,2,4,5,ve 50 lira zaman alanlar car.
+    Bu durumda zam yapılmaz. Ama ortadakine göre olursa zam yapılır. 4
 
+--Dispersion(Dağılım)---
+sprecad out
+verinin mean ve median a bakarak bu veri aynıdır bir birine yakındır diyemeyiz. Dağılıma bakmak lazım.
 
+--Quartiles--
+Betimsel istatistik içinde, bir dörttebirlik sıralanmış bir veri setini dört eşit parçaya bölen ve böylece 
+her bir bölünen parçanın anakütle veya örneklem verilerinin 1/4ini kapsadığı, üç tane özetleme değeridir. 
+Çeyreklik olarak da isimlendirilmektedir
 
+--Bivariate Data ve Covariance(iki değişkenli veri ve kovaryans)--
+Rabaya yapılan fiyat artışı ile bebeğimizin her gün yemek yeme miktarının artması aynı şey değişdir.
 
 
 
