@@ -1,0 +1,35 @@
+--Big Data--
+Volume: Verinin hacmi
+Velocity: Verinin artış hızı
+Variety: Veri çeşitliliği(resim,müzik, video)
+Verification: Doğrulama - Verinin temizlenmesi - Veri madencileri buna kirli,gürültülü veri der.
+                            ör: hız sensöüründen gelen - değeri işlememeliyiz.
+Value: verinin değerli olması. Şirkete artı katan veri.
+
+Hadoop'u cluster yaparsak sistem sonuca daha hızlı ulaşıyor. 5 cluster sistem bir işlemi 5 kat daha hızlı yapar.
+örneğin 1 ile 100 arasındaki asal sayıları bulmak için sistem bu 5 makinaya işi böler ve result daha hızlı olur.
+hadop 4 modülden oluşur
+    - Common (bazı modüllerin hadoopa erişmesi için gerekli kütüphane.)
+    - HDFS (verileri saklama sistemi)
+    - YARN(ne kadar cpu,ram kullanması gerektiğini hesaplar.)
+    - MapReduce (verileri işlememize yarayan araçlar)
+Hadoop, Spark, Pig, Hive kurmak için Cloudera ve Hortonwork kullanılabilir.
+https://www.cloudera.com/downloads/quickstart_vms/5-13.html
+Quick start linkinden virtualbox,vmware,kvm,docker image kurulabilir.
+
+https://yadi.sk/d/Ue-71ww23TaPRf
+HDFS Komutları:
+https://github.com/talhaklc/HDFS-Komutlari
+
+Apache Pig : hadoop için sorgulamalar vs.
+https://github.com/talhaklc/Apache-Pig-Kodlari
+
+
+
+Apachi Spark hadoopdan çok daha hızlıdır.
+
+Kafka : Büyük verileri belli topiklerde toplamak ve analiz etmek ve bu verileri diğer sistemlere transfer edebilmek için bir mesajlaşma(queue) sistemidir.
+
+nosql = cassandra, Clustrix, Couchbase, Amazon DynmicDb, apachi Hbase, ibmCludant, MarkLogic, OracleNoSql,memsql, mongodb,nuodb,
+        Riak, Splice Machine, TransLattice, VoltDb, Aerospike
+
