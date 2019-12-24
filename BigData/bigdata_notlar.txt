@@ -6,6 +6,13 @@ Verification: Doğrulama - Verinin temizlenmesi - Veri madencileri buna kirli,g�
                             ör: hız sensöüründen gelen - değeri işlememeliyiz.
 Value: verinin değerli olması. Şirkete artı katan veri.
 
+Apache Spark hadoopdan çok daha hızlıdır.
+
+Kafka : Büyük verileri belli topiklerde toplamak ve analiz etmek ve bu verileri diğer sistemlere transfer edebilmek için bir mesajlaşma(queue) sistemidir.
+
+nosql = cassandra, Clustrix, Couchbase, Amazon DynmicDb, Apache Hbase, ibmCludant, MarkLogic, OracleNoSql,memsql, mongodb,nuodb,
+        Riak, Splice Machine, TransLattice, VoltDb, Aerospike
+
 Hadoop'u cluster yaparsak sistem sonuca daha hızlı ulaşıyor. 5 cluster sistem bir işlemi 5 kat daha hızlı yapar.
 örneğin 1 ile 100 arasındaki asal sayıları bulmak için sistem bu 5 makinaya işi böler ve result daha hızlı olur.
 hadop 4 modülden oluşur
@@ -23,13 +30,54 @@ https://github.com/talhaklc/HDFS-Komutlari
 
 Apache Pig : hadoop için sorgulamalar vs.
 https://github.com/talhaklc/Apache-Pig-Kodlari
+https://github.com/talhaklc/Apache-Pig-Operatorler
+https://github.com/talhaklc/Apache-Pig-Fonksiyonlar
+https://github.com/talhaklc/Apache-Pig-Join
 
 
 
-Apachi Spark hadoopdan çok daha hızlıdır.
 
-Kafka : Büyük verileri belli topiklerde toplamak ve analiz etmek ve bu verileri diğer sistemlere transfer edebilmek için bir mesajlaşma(queue) sistemidir.
 
-nosql = cassandra, Clustrix, Couchbase, Amazon DynmicDb, apachi Hbase, ibmCludant, MarkLogic, OracleNoSql,memsql, mongodb,nuodb,
-        Riak, Splice Machine, TransLattice, VoltDb, Aerospike
+ödev
+https://yadi.sk/d/KYQurpA23V34Wg
+Soru 1
+
+Titanik’deki yolcu sayısını bulunuz.
+
+Soru 2
+
+Titanik’deki yolcuların kaç tanesi kurtulmuştur ?
+
+Soru 3
+
+Kurtulan yolcuların kaç tanesi erkek, kaç tanesi kadındır ?
+
+Soru 4
+
+Hayatını kaybeden yolcu sayısı kaçtır ?
+
+Soru 5
+
+Hayatını kaybeden çocuk yolcuların isimlerini bulunuz..
+
+0-7 Yaş aralığını çocuk kabul ediniz.
+
+--Apache Hive--
+Büyük veriler ile hadoop üzerinde işlem yapmak için kullanılır.
+SQl sorguları yazılı.
+1- VErileri hdfs'e at 2- veritabanı oluştur  3- Tablo Oluştur 4- Sql sorgusu oluştur.
+
+hdfs dfs -copyFromLocal /home/cloudera/Desktop/movies.csv /hiveexam
+
+veritabanı oluşturmak için browserda hue linkine tıkla. + ile veritabanı oluştur. Dbye gir table oluştur ve hdfs deki csvyi sec.
+query ile sql sorguları artık yazılabilir.
+
+Select * from movie.movies
+Select title from movie.movies
+Select title,genres from movie.movies where genres='Comedy'
+Select title,genres from movie.movies where genres LIKE '%Comedy%'
+Select count(title) from movie.movies where genres LIKE '%Comedy%'
+Select title,genres from movie.movies where title LIKE '%1996%'
+Select title,genres from movie.movies where title LIKE '%1996%' AND genres LIKE '%Comedy%'
+Select count(title) from movie.movies where title LIKE '%1996%' AND genres LIKE '%Comedy%'
 
