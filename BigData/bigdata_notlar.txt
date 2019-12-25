@@ -41,23 +41,14 @@ https://github.com/talhaklc/Apache-Pig-Join
 ödev
 https://yadi.sk/d/KYQurpA23V34Wg
 Soru 1
-
 Titanik’deki yolcu sayısını bulunuz.
-
 Soru 2
-
 Titanik’deki yolcuların kaç tanesi kurtulmuştur ?
-
 Soru 3
-
 Kurtulan yolcuların kaç tanesi erkek, kaç tanesi kadındır ?
-
 Soru 4
-
 Hayatını kaybeden yolcu sayısı kaçtır ?
-
 Soru 5
-
 Hayatını kaybeden çocuk yolcuların isimlerini bulunuz..
 
 0-7 Yaş aralığını çocuk kabul ediniz.
@@ -81,3 +72,42 @@ Select title,genres from movie.movies where title LIKE '%1996%'
 Select title,genres from movie.movies where title LIKE '%1996%' AND genres LIKE '%Comedy%'
 Select count(title) from movie.movies where title LIKE '%1996%' AND genres LIKE '%Comedy%'
 
+ödev
+https://yadi.sk/d/NBeURuPa3V3Rp3
+Soru 1
+Toplam kaç yorum yapılmıştır ?
+Soru 2
+Hangi şehirden kaç yorum yapılmıştır ?
+Soru 3
+Kullanıcı yorumlarından olumlu olan yorumları seçiniz
+
+Spark,Hadooptan daha hızlıdır.Çünkü veri saklama birimi olmadığı için Memory'de (Ram üzerinde) çalışır.
+
+--MongoDb--
+document-oriented,her kayıt bir dökümandır,dökümanlar json olarak saklanır.ilişti kurmaya gerek yok.
+cluster yapılabilir, replication yapabiliyoruz. javada primefaces ile, nodejs ile entegre edilebilir.
+
+MongoDB Windows Kurulumu
+MongoDB'yi bilgisayarımıza kurmak için, ilk olarak MongoDB Download sayfasına gidelim.
+Buradan işletim sistemimize uygun olan dosyayı bilgisayarımıza indirelim.
+İndirdiğimiz dosyayı çalıştıralım ve Next>Lisansı kabul edelim>Next diyerek ilerleyelim.
+Bu aşamaya Complete seçeneğini seçelim.Sol alt tarafta bulunan Install MongoDB Compass seçeneğindeki tiki kaldıralım ve Next diyelim.
+C:'nin altında mongodb adında klasör oluşturalım ve içerisine mongo.config ve mongo.log adında iki dosya oluşturalım.
+C:'nin altında ki mongodb klasörünün içerisine data adında klasör oluşturalım
+mongo.config dosyasını açalım ve içerisine ;
+dbpath = C:\mongodb\data
+logpath = C:\mongodb\mongo.log         satırlarını ekleyelim.
+ Kurulum işlemi tamamlandı.
+
+MongoDB sunucusunu çalıştırmak için ;
+Windows komut işlemini açalım ( cmd ) 
+Komut satırında mongo kurulum path'ine geldikten sonra ( cd C:\mongodb )
+mongod.exe --config C:\mongodb\mongo.config        satırını yazarak enter'a basalım.
+
+arayüz olarak Robo 3T kullanılmalı...
+
+https://github.com/talhaklc/Mongodb-Java-Enteg
+java Maven-- kütüphane bağımlılıklarını ortadan kaldırır. pom.xml e isteiğin kütüphaneyi yaz o netten indirir.
+googledan aşağıdaki dependecy bulduk.
+https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver
+pom.xml e dependecy tagını ekledik. Spring Tool Suit menulerden Project + Build yapılınca yeni eklenen dependecyler indirilir.
