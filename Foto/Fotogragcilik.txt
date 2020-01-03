@@ -1,0 +1,68 @@
+--POZLAMA--
+Fotoğrafın nekadar karanlık yada aydınlık olduğudur. cep telimiz yada fotoğraf makinası pozlamayı ölçebiliyor.
+https://tahiryildiz.com/pozlama-nedir-dogru-pozlama-nasil-yapilir/
+
+
+--DİYAFRAM--
+Alan derinliği ve pozlama... f sembolu ile ifade edilir. f/1.4 f/2 f/2.8 f/4
+Rakam büyüdükçe odacık daralık. Işık almak için bu kapak büyür ama rakam küçülür.
+
+--ENSTANTANE--
+Makinanın içine giren ışığın ne kadar süreyle içer girdiğidir. 1/50, 1/10, 1/2, 1/125 gibi birimleri var.
+Bu işlemleri yaparken fotoğraf makinesini manuel moda alıyoruz.
+Değer ne kadar büyükse o kadar içeri az ışık alınıyor ve resim karanlıklaşıyor.
+Gece bir foto çekerken aydınlık çıkmasını istiyoruz fakat resim dağınık çıkıyor. Bunun için tripot kullanmalıyız.
+Hızlı objeleri çekmek için saniyenin binde biri gibi bir ayar yapmam lazım. Ör: hüseyin bold :)
+
+--ISO--
+Pozlamaya etki eden diğer bir faktördür.
+SEnsörün dijital olarak ışığa ne kadar etkisi olduğudur. Pek istenmeyen birşey. Fotoğrafın netliğini bozuyor.
+Fotoğrafları zoomladığımızda ortaya çıkar. Iso başarımı diye bir tabir var. 
+Fotoğraf makinası alırken bu ISO değeri önemli 100 ile 25600 arasındamı?.
+
+
+Canon EOS 200D - 18/55 lens. başlangıç seviyesi bir makine.
+ilk olarak makineyı M ye al sonra isoyu olabildiğince düşür. 
+Karanlıksa diyaframı düşür. Yine karanlıksa entantaneyi düşür.(Ama elinin titrememesine dikkat et.)
+Eğer ayaktaydak mecburen biraz isoyu yükseltmek lazım.
+
+Pazometre: Pozlamayı ölçmek.
+
+--Ölçüm Modları--
+Genel, Ölçüm modu ve Kısmi ölçüm modu, Nokta ölçüm modu(güneşe doğru çekerken işe yarıyor). 
+En sorunlu bölge arkamızdan gelen ışıklı bölgeler. 
+Fotoyu çektikten sonrada photoshop da ölçüm modu değiştirebiliriz.
+
+--Poz Telafisi--
+Makinalarda + ve - işaretli görünen button... Çekilen nesnenin daha parlak çıkması arka plan önemli değil.
+
+-- F-Stop --
+Düzgün foto çekmek için pozlama tekniği önemlidir.
+f/2.8 den f/4 e gelmek 1 stop dur. 1 stop ışığın 2 kere azalması anlamına gelir.
+entantaneyi 1/400 den 1/200 e gelirsek 2 kat fazla ışık alırız.
+ISO da 100 den 200 gelirsek ışığı 2 kat azaltırız.
+
+iso,diyafram,entantane simulasyonu.
+http://www.canonoutsideofauto.ca/play/
+
+Doğru pozlama için ışık ölçüm Modları-----------------------------------------------ÖNEMLİ
+https://www.senelfoto.com/dogru-pozlama-icin-isik-olcum-modlari/
+
+
+-- Kompozisyon Kuralları --
+Çekeceğimiz nesneyi ortaya merkeze alma.
+1. Kural -- 1/3 kuralı. Fotoyu yatay ve dikey olarak üç eşit parçaya bölen 4 çizgi. Objeyi içerdeki bu 4 kesişim noktasına yerleştirmektir.
+    Manzarada ufuk çizgisini ya alt tarafta yada üst tarafta olmasına dikkat et. örneğin bulutsuz havalarda yeryüzünü öne çıkarabilirsin.
+2. Kural -- Negatif Boşluk. Negatif boşluğu ne kadar çok kullanırsak fotoğraf o kadar dikkat çekici oluyor.
+3. Kural -- Çizgilerin Kullanımı. cizgikullanimi.png ye bak.
+4. Kural -- Doğal kadraj kullanımı. Mesela bir aracın dikiz aynaları. dogal_kadraj1.png ye bak.
+5. Kural -- Simetri, Denge kullanımı. örnege bak.
+6. Kural -- Perspektif, açı kullanımı. Normalden farklı görüntüler örneğin dron ile çekilen foto.Bir foto çekerken açıyı değiştirip çek.
+            Geniş açı lenslerde fotoğrafı olduğundan daha büyük gösterebiliriz.
+Geniş açılı lensle portre çekilmez dar açılı lensle manzara çekilmez.
+7. Kural -- Arka plan.. Arka planı sade tut, arkayı karanlık(gölge olsun) tut. Arka çok kalabalıksa portre kaybolur.
+            Arka plan rengi yeşilse modelimizde yeşilse sıkıntı olur. Aynı renk seçme.
+8. Kural -- Bakış boşluğu/Hareket Boşluğu -- Modelin baktığı yöne doğru boşluk bırakmak izleyicide merak uyandırır.
+            
+
+
