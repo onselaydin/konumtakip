@@ -63,6 +63,24 @@ Geniş açılı lensle portre çekilmez dar açılı lensle manzara çekilmez.
 7. Kural -- Arka plan.. Arka planı sade tut, arkayı karanlık(gölge olsun) tut. Arka çok kalabalıksa portre kaybolur.
             Arka plan rengi yeşilse modelimizde yeşilse sıkıntı olur. Aynı renk seçme.
 8. Kural -- Bakış boşluğu/Hareket Boşluğu -- Modelin baktığı yöne doğru boşluk bırakmak izleyicide merak uyandırır.
-            
+
+--Arka plan fluluğu(MAX BOKEH)--
+Diyafram rakamı ne kadar küçükse arka plan fluluğu artar...
+Modele ne kadar yakınsak o kadar arka plan flulaşır.
+Modelle arka planın arasındaki mesafede önemlidir.
+
+-- NETLEME --
+Denklanşöre yarım basınca netleme yapılır.
+Obje neredeyse oraya netleme yapar. Telefonlarda ve dokunmatik fotoğraf makinesinde bu ayar var. DSLR de buttonu var.
+Çekmek istediğimiz nesneyi seçmek.
+Hareketli fotoları servo modunda çek.
+
+-- BOKEH --
+Fotoğraf da arka planda çıkan ışık demetleridir. Lensin diaframıyla ilgiliir.
+Arka planı daha karanlık tutarsak daha iyi bokeh ler yakalarız.
+
+-- DİYOPTRİ --
+Fotoğrafçının göz bozukluğunu gidermek için makinenin üzerinden bulunan bir çevirmeli buttondur.
+
 
 
