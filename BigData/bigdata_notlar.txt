@@ -111,3 +111,25 @@ java Maven-- kütüphane bağımlılıklarını ortadan kaldırır. pom.xml e is
 googledan aşağıdaki dependecy bulduk.
 https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver
 pom.xml e dependecy tagını ekledik. Spring Tool Suit menulerden Project + Build yapılınca yeni eklenen dependecyler indirilir.
+https://github.com/talhaklc/Mongodb-Java-Enteg
+
+-- Elasticsearch --
+database = index deniyor. Tablo = Type diye hitap ediliyor.
+Elasticsearch herhangi bir konfigürasyon yapmadan kurulduğunda default olarak 5 shard dan oluşur.
+Elasticsearch'de index oluşturmak için GET /IndexName
+Elastic de nosql bir db dir. Çok hızlı okuma yapar. Çünkü veriler yazılırken indexleme yapılır. Ama yazma hızı yavaştır.
+https://www.elastic.co/
+verileri json şeklinde tutar.
+Kurulum için
+https://umutcakir.wordpress.com/2017/02/25/ubuntu-16-04-server-uzerinde-elasticsearch-kurulumu-ve-ram-kullanimi-ayarlariheap-size/
+https://www.elastic.co/downloads/elasticsearch
+https://hub.docker.com/_/elasticsearch
+Sunucu 9200 portundan çalışıyor. POST,GET,PUT,DELETE işlemleri yapılabilir. API yazmış gibi olduk.:)
+Postmen ile test yapılabilir. örnek GET localhost:9200/_all  //tüm veritabanı bilgilerini verir.
+GET localhost:9200/exam/product/_search?q=brand:apple  //tüm apple markalı ürünleri listeler.
+https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html
+docker container run -d elasticsearch -p 9200:9200 --name elastic 
+java Maven ile yazarken elasticsearch verionu kaçsa java versionunu ona göre seçmek lazım
+dependecy olarak Mavenrepository.com dan Transport seçilmeli.
+https://github.com/talhaklc/elasticsearch-java-ent
+http://www.borakasmer.com/net-core-uzerinde-elasticsearch-ile-istenen-bir-mesafe-icindeki-lokasyonlarin-filitrelenmesi/
