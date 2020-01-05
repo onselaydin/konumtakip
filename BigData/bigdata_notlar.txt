@@ -119,6 +119,8 @@ Elasticsearch herhangi bir konfigürasyon yapmadan kurulduğunda default olarak 
 Elasticsearch'de index oluşturmak için GET /IndexName
 Elastic de nosql bir db dir. Çok hızlı okuma yapar. Çünkü veriler yazılırken indexleme yapılır. Ama yazma hızı yavaştır.
 https://www.elastic.co/
+https://www.elastic.co/guide/en/x-pack/current/security-getting-started.html
+
 verileri json şeklinde tutar.
 Kurulum için
 https://umutcakir.wordpress.com/2017/02/25/ubuntu-16-04-server-uzerinde-elasticsearch-kurulumu-ve-ram-kullanimi-ayarlariheap-size/
@@ -155,3 +157,25 @@ https://github.com/talhaklc/ProducerExample
 
 
 -- Apache Spark --
+Büyük veri analizlerinde kullanılır. Spark in-memory çalışır. veri analizi ram üzreinde gerçekleşir.
+Spark hadoop a göre 100 kat daha hızlıdır. Spark streaming sayesinde milyonlarca veriyi anlık analiz edebilir.
+MLlib kütüphanesi ile Machine Learning yapılabilir.
+https://computingforgeeks.com/how-to-install-apache-spark-on-ubuntu-debian/
+Java Maven için kullanacağımız kütüphane
+
+
+https://github.com/talhaklc/SparkWorldCup
+Veriyi RDD ye atmak için java maven kullanacığız.
+https://mvnrepository.com/artifact/org.apache.spark/spark-core
+
+public class App {
+    public static void main (String[] args){
+        JavaSparkContext cont = new JavaSparkContext("local",First Exam");
+        javaRDD<string> wordadd = cont.textFile("c:\\Users\\oncell\\Desktop\\birdosya.txt);
+        System.out.println(wordadd.count()); //wordadd. dediğimze bir sürü analiz için metodlar çıkıyor.
+        
+    }
+}
+
+RDD veri yükleme, RDD Map Metodu, Rdd Filter metodu.FlatMap,MapPartition,Distinct,Sample Methodu
+Pair RDD
