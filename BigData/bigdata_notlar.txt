@@ -133,3 +133,25 @@ java Maven ile yazarken elasticsearch verionu kaçsa java versionunu ona göre s
 dependecy olarak Mavenrepository.com dan Transport seçilmeli.
 https://github.com/talhaklc/elasticsearch-java-ent
 http://www.borakasmer.com/net-core-uzerinde-elasticsearch-ile-istenen-bir-mesafe-icindeki-lokasyonlarin-filitrelenmesi/
+
+
+-- Apache Kafka --
+Scala dili ile yazılmış...default port 9092 zookeeper ile kullanılıyor.(port 2181)
+Büyük veriyi hatasız ve hızlı toplamak için kullanılan bir kuyruk mekanizmasıdır.
+https://kafka.apache.org/downloads
+İndirdiğimiz dosyayı Zip'ten çıkartıp C: dizinine kopyalayacağız.
+Config klasörünün içerisindeki server.properties dosyasını güncelleyeceğiz ;
+log.dirs=C:\kafka_2.10-0.10.1.0\kafka-logs bölümünü ekleyeceğiz.
+
+https://zookeeper.apache.org/releases.html#download
+indirdiğimiz dosyayı Zip'ten çıkartıp C: dizinine kopyalayacağız.
+Config klasörünün içerisindeki zoo_sample.cfg dosya ismini zoo.cfg olarak güncelleyeceğiz
+zoo.cfg dosyasını güncelleyeceğiz ; 
+dataDir=C:\zookeeper-3.3.6\data
+Bilgisayarım>Sağ Klik>Özellikler>Gelişmiş Sistem Ayarları>Ortam Değişkenleri yolunu izleyeceğiz
+Path bölümüne C:\zookeeper-3.4.10\bin ekleyeceğiz
+Apache Kafka Server'ını çalıştırmak için öncelikle Zookeeper'ı çalıştırmalısınız.
+https://github.com/talhaklc/ProducerExample
+
+
+-- Apache Spark --
