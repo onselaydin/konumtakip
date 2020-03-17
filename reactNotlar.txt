@@ -2,24 +2,60 @@
 nodejs kur.
 React Developer Tool chrome eklentisi
 Redux Developer Tool chrome eklentisi
+Auto rename tag,bracket pair colorizer,ESLint,Prettier Code formatter
 vs.code eklenti olarak Live Server, ES7 React/Redux/GraphQL/ReactNative kur.
 
 https://tr.reactjs.org/
 https://medium.com/search?q=react
+https://www.c-sharpcorner.com/article/react-material-ui-expansion-panel-and-dialogs/
 
 
 https://github.com/facebook/create-react-app
 
+Not: Angulardaki two way binding react da yok. Başka bir yol ile bu çözülebilir.redux kullanılabilr.
+
 jsx = javascript içinde html kullanmamızı sağlar.genelde bir tane parent elemen döner örneğin div. herşeyi bu div içinde yapacağız.
+örnek: js fonksiyonundaki returnde dikkat edersek jsx yapısı var return parantez içinde html tagları mevcut.film burada başlıyor.
+function App() {
+  return (
+    <div>
+      <h2> Merhaba Yağmur AYDIN</h2>
+    </div>
+  );
+}
+
 redux = state yönetimi için kullanılır.
 
 #npm i -g create-react-app ile bilgisayarımıza REACT kurulur. linux da başına sudo koymayı unutma.
+
 --yeni proje oluşturmak.--
 #create-react-app projeadı yada bir klasör aç içine gir #create-react-app .
+#npx create-react-app intro
+
 --projeyi çalıştırmak--
 #npm start
+
+--components--
+üç tip component vardır. fonksiyonel, class, hooks component
+src klasörüne sağ click new file örneğin Navi.js (Pascal Case standardına uy)
+Dosyanın içindeyken rcc yazıp enter yapıyorsun. Bu bize bir class component oluşturdu.Bu es7 eklentisinden geliyor.
+Dosyayı incelersek extends Component den gelmekte. export kelimeside c#,java daki public gibi.
+
+--Reactstrap---
+https://reactstrap.github.io/--
+https://getbootstrap.com/docs/3.3/components/
+https://www.telerik.com/kendo-react-ui/components/grid/get-started/
+https://www.youtube.com/watch?v=rVYBlYQ-Eqg
+# npm install --save bootstrap
+# npm install --save reactstrap react react-dom ile kur sonra index.js dosyasına gel.
+import 'bootstrap/dist/css/bootstrap.min.css';
+Not: reactstrep ve bootstrap her ikisinide kullanabilirsin.
+
+
+
 --google maps--
 npm install --save google-maps-react
+
 --yeni js oluşturmak--
 harita ekleyeceğim...
 src içine yeni js dosyası oluştur. App.js e import et.örneğin adı MapContainer.js olsun.
@@ -45,6 +81,21 @@ bootstrap için index.html'e cdn linkleri eklenir. Ama npm i bootstrap yapmak da
 state konusunda daha iyi anlaşılacak. komponentimiz sabit olacaksa yada bir durum almayacaksa kullanılabilir.
 rfc yazıp tab yaparsak otomatik format oluşur.projede navbar.js'e bak
 
+Not: state ve props için artık constractora gerek yok.
+Not: App componentini state için class componente geçir.
+Not: Props ile bir fonksiyonda yollanabilir.
+
+--Json Server--
+https://www.npmjs.com/package/json-server
+#npm install -g json-server
+#json-server --watch db.json
+
+--React lifecycle--
+componentDidMount  -componenet yüklendikten sonra çalışır.içine fonksiyonlarımızı ekleriz.
+componentDidUpdate
+componentWillUnmount
+componentWillUpdate
+
 --props--
 propslar bir komponentden diğerine veri aktarmak için kullanılır.
 impt yazıp taba basarsak import proptype otomatik eklenir.
@@ -52,6 +103,7 @@ maptest uygulamasında örnekler var.
 
 --state--
 Bir komponentin o anki durumunu gösteren, değişik propertylerden oluşan bir js objesidir.
+Bir componentin o anki datasıdır.
 örneğin: componente tıklanmışmı, görünürmü
 sadece statei değişen component yenileniyor. setstate ile stateler değiştirilir.
 Bir state başka bir komponente props ile gönderebiliriz.
@@ -78,10 +130,6 @@ Orta ölçekli uygulamalar için contextapi. Büyük uygulamalar için redux
 context.js oluştur. içinde provider(sağlayan) ve consumer(tüketici) yapısı kullacağız.
 https://dev.to/washingtonsteven/reacts-new-context-api-and-actions-446o
 https://reactjs.org/docs/context.html
-
-
-
-
 
 
 --react native kurulum--ios,android için--
