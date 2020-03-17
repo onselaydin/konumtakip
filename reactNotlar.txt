@@ -4,16 +4,20 @@ React Developer Tool chrome eklentisi
 Redux Developer Tool chrome eklentisi
 vs.code eklenti olarak Live Server, ES7 React/Redux/GraphQL/ReactNative kur.
 
+https://tr.reactjs.org/
+https://medium.com/search?q=react
+
+
 https://github.com/facebook/create-react-app
 
 jsx = javascript içinde html kullanmamızı sağlar.genelde bir tane parent elemen döner örneğin div. herşeyi bu div içinde yapacağız.
 redux = state yönetimi için kullanılır.
 
-npm i -g create-react-app
+#npm i -g create-react-app ile bilgisayarımıza REACT kurulur. linux da başına sudo koymayı unutma.
 --yeni proje oluşturmak.--
-create-react-app .
+#create-react-app projeadı yada bir klasör aç içine gir #create-react-app .
 --projeyi çalıştırmak--
-npm start
+#npm start
 --google maps--
 npm install --save google-maps-react
 --yeni js oluşturmak--
@@ -28,6 +32,10 @@ https://github.com/fullstackreact/google-maps-react
 
 Eğer es7 react eklentisi kuruluysa yeni açtığız componentein içinde rcc yazıp tab tuşuna basarsak
 yapıyı bize oluşturur.
+
+jsx = javascript içinde html yazmamıza olanak tanıyan bir yapıdır.
+es6 ve javasctipt iyi bilmek gerekiyor.
+
 
 --style, css, bootstrap kullanımı--
 <h4 style={{color:"blue"}}>merhaba</h4>

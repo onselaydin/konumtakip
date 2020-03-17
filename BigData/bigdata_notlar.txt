@@ -179,3 +179,4 @@ public class App {
 
 RDD veri yükleme, RDD Map Metodu, Rdd Filter metodu.FlatMap,MapPartition,Distinct,Sample Methodu
 Pair RDD
+https://github.com/talhaklc/SparkWorldCup

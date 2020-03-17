@@ -1,0 +1,100 @@
+chrome kontolunda ekranı temizlemek için >clear() komutu kullanılır.
+tek tırnağı kullanmak için çift tırnak kullanılır. örneğin "Önsel'in evi" yada 'Önsel\'in evi'
+
+https://www.w3schools.com/html/html_images_imagemap.asp
+
+ecmascript ile beraber gelen değişken tanımlama operatörleri const ve let
+>egitmen = prompt("eğitmen kim ulan");
+
+var a = "134";
+var b = "432";
+var toplam = Number(a) + Number(b);
+Not: Number metni sayıya döndürür.
+consoleda alt satıra geçmek için shift + enter  kodlama bitince normal enter
+
+--Nesne Tanımlama--
+nesnelerin içine dizide tanımlanabilir. fonksiyon tanımlanabilir.
+var kisi = {
+    ad : "Önsel",
+    soyad : "Aydın",
+    yas : 44,
+    email : "onselaydin@gmail.com",
+    arkadalar : ["Hakan","Ayhan"],
+    selamver : function() { console.log("Hi how are you") }
+}
+> kisi.email dersek ciktiyi verecek.
+
+let değişken tanımı ikinci bir defa daha tanımlayamazsın. var ise başka başka yerlerde mükerrer aynı isimle tanımlanabiliyor.
+Bir fonksiyon içindeki var değişlenine dışarıdan erişemezsin.
+
+diziler ve nesneler referans tiplerdir. Bunlar bellekte adreslenir. Dolayısı ile const da olsa let de olsa içindeki değerler değiştirebilirsin.
+
+--yeni nesil fonksiyon tanımı--
+
+const selam = () => {
+    console.log("merhaba");
+}
+
+yada 
+const selam = () =>  console.log("merhaba");
+
+selam();
+
+--es6 diziler---
+const dizi = [1,2,3,4];
+dizi.forEach(sayi=>{
+    console.log(sayi);
+});
+
+map bir diziyi başka bir diziye aktarmak için kullanılır.
+const mapDizi = dizi.map(sayi=> sayi*3);
+console.log(mapDizi);
+
+const pushDizi = [];
+dizi.forEach(sayi=>{
+    pushDizi.push(sayi*sayi);
+});
+console.log(pushDizi);
+
+const filterDizi = dizi.filter(sayi=>sayi>2);
+console.log(filterDizi);
+
+Bide reduce var. Oda dizi elemanlarını belli bir sıradan itibaren topluyor.
+
+this  Bulunduğumuz sınıfı işaret eder. ör: this.alert("merhaba");  ör: this === windows
+
+const urunService = {
+    ekle : function() {
+        console.log(this);
+    },
+    kaldir: function(){
+        console.log("Kaldırdım");
+    },
+    indir: function(){
+        console.log("indirdim");
+    }
+
+}
+urunService.ekle
+
+--class--
+class Personel{
+    kaydet(){
+        console.log("kaydet bir fonksiyondur. function yazmaya gerek yok.");
+    }
+}
+
+const personel = new Personel();
+personel.kaydet();
+
+class Personel{
+    //class new lendiğinde bu constructor çalışır.
+    constructor(ad,soyad) {
+        //proparty tanımladık.
+        this.ad = ad;
+        this.soyad = soyad;
+    }
+}
+
+const personel = new Personel("Yagmur", "AYDIN");
+personel.ad

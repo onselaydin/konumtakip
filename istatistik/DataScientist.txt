@@ -89,6 +89,7 @@ Bol Bol proje yap
 başlattan anaconda navigator bul çalıştır.
 http://localhost:8888/notebooks/Documents/glossary
 Spyder editörü kullanacak.
+
 --------Kaggle.com-veri bilimcilerin evi--------
 compatition - Tartışmalar, yarışmalar, ödüllerin olduğu bölüm
 datasets-- birçok dataların olduğu bölüm.
