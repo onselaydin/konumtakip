@@ -91,10 +91,14 @@ https://www.npmjs.com/package/json-server
 #json-server --watch db.json
 
 --React lifecycle--
-componentDidMount  -componenet yüklendikten sonra çalışır.içine fonksiyonlarımızı ekleriz.
-componentDidUpdate
-componentWillUnmount
+Not: Önce constractor() çalışır sonra render() çalışır
+componentDidMount  -constructor ve render dan sonra çalışır. componenet yüklendikten sonra çalışır.içine fonksiyonlarımızı ekleriz.api isteleri buradan olabilir. Kısa yolu cdm
+componentDidUpdate - alt componentler props,state ile etkilendiğinde çalışır. kısa yolu cdu
+componentWillUnmount - component sayfadan kaldırılmadan önce çalışır.
 componentWillUpdate
+souldComponentUpdate - prop state değişimde cdu çalıştıktan sonra render çalışır.işte bu render dan bir tık önce çalışır.
+                        Default true döner ve render çalışır. Eğer component güncellenmesin istersen false yapman lazım.
+                        Kısa yolu shpu
 
 --props--
 propslar bir komponentden diğerine veri aktarmak için kullanılır.
@@ -112,6 +116,25 @@ rcons yazıp tab tuşu ile otomatik oluşur.
 Erişmek için
 {this.state.test}
 
+--contextapi--
+Provider, Consumer dan oluşuyor. bir adet context.js oluşturuluyor.reactkendotest projesinde denedim.
+Reducer= genel action tipine göre state'i değiştirecek işlemlerden sorumlu bir fonksiyondur.
+Action=componentin içine hangi verilerin gönderileceğini hangi işlemlerin yapılacağını belirler.
+Dispatch=Actionları context'e göndermekle göreveli bir fonksiyondur.PRovider state içinde bulunur.
+
+--spread operator--
+bir statei diğer stateye olduğu gibi aktarmak için kullanılır. 
+Örnek:
+state :{
+  a:10,
+  b:20,
+  c:30
+}
+
+{
+  ...state   //yani buraya a,b,c değerleri olduğu gibi gelir. Üç nokta ile oluyor.
+}
+
 --events--
 örneğin onClick. Eventi yapalamak için e kullanacağız.
 onClickEvent(e){
@@ -126,7 +149,8 @@ bind(this,34) alırkende
 onClickEvent = (number,e) => { console.log(number) }
 
 --State yönetimi--
-Orta ölçekli uygulamalar için contextapi. Büyük uygulamalar için redux
+Daha küçük uygulamalar için props state. ama componentler çoğaldıkça sıkıtı olur.
+Orta ölçekli uygulamalar için contextapi.Contextapi react ile default gelir. Büyük uygulamalar için redux
 context.js oluştur. içinde provider(sağlayan) ve consumer(tüketici) yapısı kullacağız.
 https://dev.to/washingtonsteven/reacts-new-context-api-and-actions-446o
 https://reactjs.org/docs/context.html

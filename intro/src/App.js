@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Navi from "./Navi";
-import CategoryList from "./CategoryList";
-import ProductList from "./ProductList";
+import Navi from "./components/Navi";
+import CategoryList from "./components/CategoryList";
+import ProductList from "./components/ProductList";
 import { Container, Row, Col } from "reactstrap";
 
 export default class App extends Component {
@@ -31,7 +31,7 @@ export default class App extends Component {
     //alert(product.name);
     let newCart = this.state.cart;
     //Bu ürün sepette varmıyı kontrol edeceğiz.
-    var addedItem = newCart.find(c=>product.id === product.id);
+    var addedItem = newCart.find(c=>product.id === c.id);
     if(addedItem){
       addedItem.quantity+=1;
     }
