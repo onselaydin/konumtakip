@@ -46,6 +46,8 @@ https://reactstrap.github.io/--
 https://getbootstrap.com/docs/3.3/components/
 https://www.telerik.com/kendo-react-ui/components/grid/get-started/
 https://www.youtube.com/watch?v=rVYBlYQ-Eqg
+https://fontawesome.com/
+
 # npm install --save bootstrap
 # npm install --save reactstrap react react-dom ile kur sonra index.js dosyasına gel.
 import 'bootstrap/dist/css/bootstrap.min.css';
