@@ -35,6 +35,14 @@ redux = state yönetimi için kullanılır.
 --projeyi çalıştırmak--
 #npm start
 
+--event yakalamak --
+e yada event parametresi ile yakalarız.
+onClickEvent(e) {}
+arrow function kullanmak tavsiye edilir.
+
+Not: app.js içindeki componentler chield componentdir.app'ın çocuğudur.
+
+
 --components--
 üç tip component vardır. fonksiyonel, class, hooks component
 src klasörüne sağ click new file örneğin Navi.js (Pascal Case standardına uy)
@@ -47,6 +55,7 @@ https://getbootstrap.com/docs/3.3/components/
 https://www.telerik.com/kendo-react-ui/components/grid/get-started/
 https://www.youtube.com/watch?v=rVYBlYQ-Eqg
 https://fontawesome.com/
+https://www.color-hex.com/
 
 # npm install --save bootstrap
 # npm install --save reactstrap react react-dom ile kur sonra index.js dosyasına gel.
@@ -158,6 +167,82 @@ https://dev.to/washingtonsteven/reacts-new-context-api-and-actions-446o
 https://reactjs.org/docs/context.html
 
 
+--React Animation--
+Reac Pose
+https://popmotion.io/pose/
+npm install react-pose --save
+
+--Dinamik css vermek--
+<div className="card" style={isVisible ? {backgroundColor : "#ffaeaf"} : null}>
+
+--Unique id oluşturmak--
+https://www.npmjs.com/package/uniqid
+
+--json rest api--
+https://jsonplaceholder.typicode.com/
+https://my-json-server.typicode.com/
+npm install -g json-server
+json file oluştur.
+json-server --watch db.json --port 3004
+get,post vs istekleri için normalde fetch kullanılıyor. Ama axios daha basit gibi.
+npm install axios --save
+örnek:
+componentDidMount= async () => {
+	const response = await axios.get("http://localhost:3004/users");
+	console.log(response);
+}
+
+--template literal--
+Bir es6 yeteneğidir. AltGr + virule(,,) iki defa basılca oluşur. Araya değişkenden veri almak için kullanılır.
+sayHello(name, age){
+   console.log(`My name is ${name} and I am ${age}  years old.`)
+}
+sayHello('Onur',39) //Output->My name is Onur and I am 39 years old
+
+
+--react router--
+npm install react-router-dom --save
+import {BrowserRouter as Router, Route,Switc} from "react-router-dom";
+switch olmayan sayfalar için kullanılır.
+örnek:
+render() {
+    return (
+      <Router>
+        <div className="container">
+          <Route exact path="/" render = {
+            () => {
+              return <h3>Home Page</h3>
+            }
+          } />
+          <Route exact path="/about" render = {
+            () => {
+              return <h3>About Page</h3>
+            }
+          } />
+        </div>
+      </Router>
+      
+    );
+  }
+}
+
+--Küçük funct componentler aynı sayfada olabilir.---
+bir class componentin içinde yapıyorsan export class ın üstüne importun altına ekle.
+
+const Home = () => {
+	return (
+		<h3> Home page </h3>
+	)
+}
+const About = () => {
+	return (
+		<h3> About page </h3>
+	)
+}
+--Validation--
+
+
+--------------------------------------------------
 --react native kurulum--ios,android için--
 https://facebook.github.io/react-native/
 npm install -g react-native-cli
