@@ -114,12 +114,33 @@ pom.xml e dependecy tagını ekledik. Spring Tool Suit menulerden Project + Buil
 https://github.com/talhaklc/Mongodb-Java-Enteg
 
 -- Elasticsearch --
-database = index deniyor. Tablo = Type diye hitap ediliyor.
+https://www.elastic.co/
+https://www.elastic.co/guide/en/x-pack/current/security-getting-started.html
+https://www.elastic.co/downloads/elasticsearch
+
+Cluster yapısı var. monitöring için Kibana kullan. elastic sitesinde var.
+
 Elasticsearch herhangi bir konfigürasyon yapmadan kurulduğunda default olarak 5 shard dan oluşur.
 Elasticsearch'de index oluşturmak için GET /IndexName
 Elastic de nosql bir db dir. Çok hızlı okuma yapar. Çünkü veriler yazılırken indexleme yapılır. Ama yazma hızı yavaştır.
-https://www.elastic.co/
-https://www.elastic.co/guide/en/x-pack/current/security-getting-started.html
+
+Windows'a kurarken zipi indir. dizine çıkart. komut isteminden cd ile içine gir ve bin\elasticsearch.bat dosyasını çalıştır.
+started görürsen artık elasticsearch'e kayıt ekleyip silip arattırabiliriz.
+
+postman kullanarak elasticsearch'e istek göndereceğiz.
+
+
+DataBase -> Index
+Table    -> Type
+Row      -> Document
+Column   -> Fields
+Schema   -> Mapping
+
+.net core uygulama kurulum vs.
+ELK seriloglama
+
+https://medium.com/devopsturkiye/net-core-ile-docker-%C3%BCzerinde-%C3%A7al%C4%B1%C5%9Fan-elasticsearche-loglama-nas%C4%B1l-yap%C4%B1l%C4%B1r-fcb60386e339
+https://medium.com/devopsturkiye/net-core-3-0-elasticsearch-kurulum-konfig%C3%BCrasyon-ve-sorgulama-3dc81e4fcc72
 
 verileri json şeklinde tutar.
 Kurulum için
